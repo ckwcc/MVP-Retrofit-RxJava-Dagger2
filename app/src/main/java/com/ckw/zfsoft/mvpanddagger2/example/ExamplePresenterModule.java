@@ -1,5 +1,7 @@
 package com.ckw.zfsoft.mvpanddagger2.example;
 
+import android.util.Log;
+
 import com.ckw.zfsoft.mvpanddagger2.global.HttpManager;
 import com.ckw.zfsoft.mvpanddagger2.global.RetrofitService;
 import com.ckw.zfsoft.mvpanddagger2.global.base.PerActivity;

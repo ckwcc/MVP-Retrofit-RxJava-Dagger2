@@ -1,5 +1,6 @@
 package com.ckw.zfsoft.mvpanddagger2.example;
 
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -10,6 +11,10 @@ import com.ckw.zfsoft.mvpanddagger2.global.base.BaseFragment;
 
 import java.util.List;
 
+import javax.inject.Inject;
+
+import retrofit2.Retrofit;
+
 /**
  * Created by ckw
  * on 2017/11/30.
@@ -19,6 +24,7 @@ public class ExampleFragment extends BaseFragment<ExamplePresenter> implements E
 
     private TextView mShow;
     private Button mButton;
+
 
     @Override
     protected int getLayoutResID() {
