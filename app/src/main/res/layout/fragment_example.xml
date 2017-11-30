@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_fragment_container"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ckw.zfsoft.mvpanddagger2.example.ExampleFragment">
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello world" />
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
